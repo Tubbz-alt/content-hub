@@ -39,8 +39,8 @@ add_executable(
   content-hub-service
 
   main.cpp
-  hook.cpp
   registry.cpp
+  registry-updater.cpp
   ../debug.cpp
   ../utils.cpp
   ${CONTENT_SERVICE_SKELETON}
